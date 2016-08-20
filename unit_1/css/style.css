@@ -1,6 +1,8 @@
 body{
-	background-color: #838383;
+	background-color: #535353;
 }
 h1, p{
-	color: #E4B9D0;
+	color: #F7D2DE;
+	font-family: "Georgia", Times New Roman, Times, serif;
+font-weight: lighter;
 }
