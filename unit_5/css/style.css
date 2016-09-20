@@ -61,7 +61,7 @@ body  {
 #rectangles {
 	width: 100%;
 	height: 100%;
-	margin: 100px;
+	margin: 0 auto;
 	background-color: #FFE2B8;
 	border: 1px black solid;
     padding: 20px;
