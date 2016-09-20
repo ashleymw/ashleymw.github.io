@@ -60,10 +60,8 @@ body  {
 }
 #rectangles {
 	width: 100%;
-	margin-left: 100px;
-	margin-right: 100px;
-	margin-top: 100px;
-	margin-bottom: 100px;
+	height: 100%;
+	margin: 100px;
 	background-color: #FFE2B8;
 	border: 1px black solid;
     padding: 20px;
