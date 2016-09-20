@@ -50,7 +50,7 @@ body  {
 }
 .nav-box {
 	float: left;
-	background-color: #EBEBEB;
+	background-color: #FFE2B8;
 	width: 20%;
 	height: 300px;
 	display: block;
@@ -84,7 +84,7 @@ body  {
 	position: relative;
 	margin-top: 7px;
 	margin-left: 43px;
-	color: #1F1E1E;
+	color: #FFE2B8;
 	font-size: 1.6em;
 	font-family: 'Anton', sans-serif;
 }
@@ -93,7 +93,7 @@ body  {
 	position: relative;
 	margin-top: 105px;
 	margin-left: 45px;
-	color: #1F1E1E;
+	color: #FFE2B8;
 	font-size: 1.6em;
 	font-family: 'Anton', sans-serif;
 }
@@ -103,7 +103,7 @@ body  {
 	position: relative;
 	margin-top: 145px;
 	margin-left: 34px;
-	color: #1F1E1E;
+	color: #FFE2B8;
 	font-size: 1.6em;
 	font-family: 'Anton', sans-serif;
 }
@@ -121,7 +121,7 @@ body  {
 	position: relative;
 	margin-top: 47px;
 	margin-left: 34px;
-	color: #1F1E1E;
+	color: #FFE2B8;
 	font-size: 1.6em;
 	font-family: 'Anton', sans-serif;
 }
