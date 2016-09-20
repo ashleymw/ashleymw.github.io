@@ -30,7 +30,6 @@ body  {
 }
 
 
-
 #logo {
 	width: 106px;
 	position: absolute;
@@ -40,13 +39,11 @@ body  {
 	left: 25px;
 	padding-bottom: 5px;
 	padding-right: 10px;
-	border: 1px black solid;
 }
 .nav-box {
 	float: left;
 	background-color: #FFE2B8;
 	border: 1px black solid;
-    padding: 19px;
 	width: 20%;
 	height: 300px;
 	display: block;
