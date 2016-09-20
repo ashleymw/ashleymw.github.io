@@ -51,6 +51,8 @@ body  {
 .nav-box {
 	float: left;
 	background-color: #FFE2B8;
+	border: 1px black solid;
+    padding: 20px;
 	width: 20%;
 	height: 300px;
 	display: block;
@@ -72,6 +74,8 @@ body  {
 	margin-top: 100px;
 	margin-bottom: 100px;
 	background-color: #FFE2B8;
+	border: 1px black solid;
+    padding: 20px;
 }
 .companyName {
 	margin-left: auto;
@@ -85,6 +89,8 @@ body  {
 	margin-top: 7px;
 	margin-left: 43px;
 	color: #FFE2B8;
+	border: 1px black solid;
+    padding: 20px;
 	font-size: 1.6em;
 	font-family: 'Anton', sans-serif;
 }
@@ -94,6 +100,8 @@ body  {
 	margin-top: 105px;
 	margin-left: 45px;
 	color: #FFE2B8;
+	border: 1px black solid;
+    padding: 20px;
 	font-size: 1.6em;
 	font-family: 'Anton', sans-serif;
 }
@@ -104,6 +112,8 @@ body  {
 	margin-top: 145px;
 	margin-left: 34px;
 	color: #FFE2B8;
+	border: 1px black solid;
+    padding: 20px;
 	font-size: 1.6em;
 	font-family: 'Anton', sans-serif;
 }
@@ -122,6 +132,8 @@ body  {
 	margin-top: 47px;
 	margin-left: 34px;
 	color: #FFE2B8;
+	border: 1px black solid;
+    padding: 20px;
 	font-size: 1.6em;
 	font-family: 'Anton', sans-serif;
 }
@@ -133,6 +145,7 @@ body  {
 	padding-top: 60px;
 	padding-right: 35px;
 	background-color: #E8C66A;
+	border: 1px black solid;
 }
 header{
 	background-color: #FFED74;
