@@ -14,7 +14,6 @@ box-sizing: border-box;
     -webkit-box-shadow: inset 0px 0px #3C3C3C;
     box-shadow: inset 0px 0px #3C3C3C;
     width: 100%;
-    min-height: 100vh;
  }
 
   
@@ -190,7 +189,7 @@ p#about-me2 {
 	padding-top: 10px;
 	width: 100%;
 }
-.nav-box  {
+.nav-box #gallery {
 	text-align: right;
 	position: absolute;
 	top: 7px;
@@ -226,6 +225,7 @@ p#about-me2 {
 	font-size: 1.6em;
 	font-family: 'Anton', sans-serif;
 }
+
 
 .nav-box h3 a:hover, a:active{
 	color: #5C8958;
