@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ashley Whalen Designs</title>	
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/style.css"><link rel="stylesheet" type="text/css" href="css/nav.css">
+        
+         
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+        
+         <script src="js/index.js"></script>
+
+<script> $(document).ready(function() {
+
+  var active1 = false;
+  var active2 = false;
+  var active3 = false;
+  var active4 = false;
+
+    $('.parent2').on('mousedown touchstart', function() {
+    
+    if (!active1) $(this).find('.test1').css({'background-color': 'black', 'transform': 'translate(0px,125px)'});
+    else $(this).find('.test1').css({'background-color': 'black', 'transform': 'none'}); 
+     if (!active2) $(this).find('.test2').css({'background-color': 'black', 'transform': 'translate(60px,105px)'});
+    else $(this).find('.test2').css({'background-color': 'black', 'transform': 'none'});
+      if (!active3) $(this).find('.test3').css({'background-color': 'black', 'transform': 'translate(105px,60px)'});
+    else $(this).find('.test3').css({'background-color': 'black', 'transform': 'none'});
+      if (!active4) $(this).find('.test4').css({'background-color': 'black', 'transform': 'translate(125px,0px)'});
+    else $(this).find('.test4').css({'background-color': 'black', 'transform': 'none'});
+    active1 = !active1;
+    active2 = !active2;
+    active3 = !active3;
+    active4 = !active4;
+      
+    });
+});</script>         
+
+</head>
+<body id="portfolio">
+
+<div class="parent2">
+<div class="test1"><i class="about"></i><a href="index.html"><img src="../unit_9/images/home.png"></a></div>
+
+<div class="test2"><i class="gallery"></i><a href="about.html"><img src="../unit_9/images/about.png"></a></div>
+  
+<div class="test3"><i class="contact"></i><img src="../unit_9/images/contact.png"></div>
+  
+<div class="test4"><i class="resume"></i><img src="../unit_9/images/resume.png"></div>
+  
+<div class="mask2"><i class="home"></i><img src="../unit_9/images/feather_logo-white.png"></div>
+</div> <!--end parent2-->
+
+<div class="text-left">
+<p id="portfolio-1">Marketing professional with 9 years of experience. Currently seeking a transition into a new field of expertise. I am currently working on obtaining certifications from General Assembly SF in UI/Front End Development, Java and Programming. To be completed by late fall/early winter of this year. I am also working on obtaining an AS degree in Graphic Design. Open to relocation Nationwide and Globally. Feel free to message me for more information.</p>
+</div><!--END text-left-->
+
+<img id="two" src="../unit_10/images/Business-Card Mockup-front.png">
+
+
+<div class="black-bar-right1">
+<img id="one" src="../unit_10/images/Number-1-fade.png">
+<h2 id="black1">/Logos</h2>
+<h2 id="white">Icons</h2>
+</div><!--END black-bar-right1-->
+
+
+        
+	</body><!--end body--> 
+	</html><!--end html--> 

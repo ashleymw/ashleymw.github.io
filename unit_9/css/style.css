@@ -47,17 +47,20 @@ box-sizing: border-box;
 
   
 body#about {
-    background-color: #000;
+    background-color: #fff;
     -webkit-box-shadow: inset 0px 0px #3C3C3C;
     box-shadow: inset 0px 0px #3C3C3C;
     width: 100%;
-	height: 700px;
 }
 
 #wrapper-dark {
+	height: 100vh;
 	width: 40%;
 	float: left;
-	background-color: #000;
+	background-image: url(../images/A-Background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*background-color: #000;
 	/*width: 40%;
     height: 100%;
     float: left;
@@ -70,9 +73,8 @@ body#about {
 	#about-text {
     background-color: #fff;
     width: 60%;
-    height: 1000px;
     float: right;
-/*    min-height: 100vh;*/
+	/* min-height: 100vh;*/
 }
 
 #logo {
@@ -90,7 +92,7 @@ body#about {
     width: 150px;
     height: 200px;
     background-color: #000;
-    margin: 175px auto;
+    margin: 25px auto;
 }
 h2#black {
     text-align: left;
@@ -275,7 +277,7 @@ p#about-me2 {
 }
     }
  
-@media all and (max-width: 599px) and (min-width: 300px) {
+@media screen and (max-width: 599px) {
     #resume a, #about a, #contact a, #gallery a{
         font-size: 0.8em;
     }
@@ -283,7 +285,7 @@ p#about-me2 {
     	height: 100px;
     	
     }
-     .#navigation-wrapper{
+     #navigation-wrapper{
     	width:100%;}
 		
 	.nav-box #about, .nav-box #gallery, .nav-box #contact, .nav-box #resume {
@@ -301,6 +303,20 @@ p#about-me2 {
 	width: 25px;
 	height: 25px;
 }
+#wrapper-dark {
+	height: 100px;
+	width: 100%;
+	float: none;
+	background-image: url(../images/A-Background.png)
+}
+#about-text{
+	width: 100%;
+	float: none;
+}
+#black-box {
+    margin: 0 auto;
+}
+
 }
 
 @media screen and (max-width: 480px) {
@@ -358,10 +374,10 @@ body#about {
    .nav-box #gallery{
     	right: 1px;
 	}
-	#about-text {
+	/*#about-text {
 	float: none;
 	padding: 50px;
-}
+}*/
 
  h2#black, p#about-me {
 	font-size: 0.7em;
