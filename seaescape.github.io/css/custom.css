@@ -1,0 +1,561 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	width: 100%;
+	height: 100vh;
+	background:#e5edef;
+	min-width:350px;
+	overflow-x:hidden;
+	margin:0;
+	line-height: 1.42857143;
+}
+.page-width {
+    max-width: 1000px;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+}
+#hero{
+	width: 100%;
+	height: 350px;
+	margin: auto;
+	background-color: #ced3cf;
+	background-image: url(../images/upperdeck-hero.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#contact{
+	width: 100%;
+	height: 250px;
+	margin: auto;
+	background-color: #ced3cf;
+}
+
+#directions{
+	width: 100%;
+	height: 350px;
+	margin: auto;
+	background-color: #ced3cf;
+	background-image: url(../images/SeaEscapeMap.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+#nav {
+    padding-top: 10px;
+	padding-right: 15px;
+    height: 40px;
+    width: 100%;
+    background: rgba(229, 237, 239, 0);
+    z-index: 999;
+	color: #555 !important;
+}
+
+#nav ul {
+    list-style: none;
+	width: 100%;
+	color: #555 !important;
+}
+#nav ul li, #nav ul li a {
+    display: inline-block;
+	color: #555 !important;
+	text-decoration: none;
+	padding: 0 10px;
+	float: right;
+	font-family: 'Crushed', cursive;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: normal;
+}
+#nav ul .menu {
+    margin-top: 0;
+	float:left;
+	color: #555 !important;
+}
+
+img.home-icon{
+	color: #555 !important;
+}
+
+
+#services{
+	width: 100%;
+	height: 250px;
+	margin: auto;
+	background-color: #ced3cf;
+}
+
+#area{
+	width: 100%;
+	height: 300px;
+	margin: auto;
+	background-color: #ced3cf;
+}
+
+#spa{
+	width: 100%;
+	height: 500px;
+	margin: auto;
+	background-color: #ced3cf;
+}
+
+#restaurants{
+	width: 100%;
+	height: 300px;
+	margin: auto;
+	background-color: #ced3cf;
+}
+
+
+#gallery{
+	width: 100%;
+	height: 475px;
+	margin: auto;
+	background-color: #ced3cf;
+}
+
+/*h1.hero-title {
+	font-size: 45px !important;
+	font-family: 'Cormorant Upright', serif;
+	color: #fff;
+	text-align: center;
+	font-weight: 500;
+	width: 100%;
+	padding-top: 100px;
+	padding-left: auto;
+	padding-right: auto;
+}*/
+
+
+h2.hero-title-2 {
+	line-height: 1.4em;
+	width: 100%;
+	text-align: center;
+	font-size: 1.8em;
+	color: #555;
+	padding-top: 50px;
+font-family: 'Cardo', serif;
+font-weight: normal;
+}
+
+
+h2.area-title-2 {
+	line-height: 1.4em;
+	width: 100%;
+	text-align: center;
+	font-size: 1.8em;
+	color: #555;
+	padding-top: 50px;
+font-family: 'Cardo', serif;
+font-weight: normal;
+}
+
+h2.spa-title-2 {
+	line-height: 1.4em;
+	width: 100%;
+	text-align: center;
+	font-size: 1.8em;
+	color: #555;
+	padding-top: 50px;
+font-family: 'Cardo', serif;
+font-weight: normal;
+}
+
+h2.attractions-title-2 {
+	line-height: 1.4em;
+	width: 100%;
+	text-align: center;
+	font-size: 1.8em;
+	color: #555;
+	padding-top: 25px;
+font-family: 'Cardo', serif;
+font-weight: normal;
+}
+
+h2.restaurants-title-2 {
+	line-height: 1.4em;
+	width: 100%;
+	text-align: center;
+	font-size: 1.8em;
+	color: #555;
+	padding-top: 50px;
+font-family: 'Cardo', serif;
+font-weight: normal;
+}
+
+h2.beaches-title-2 {
+	line-height: 1.4em;
+	width: 100%;
+	text-align: center;
+	font-size: 1.8em;
+	color: #555;
+font-family: 'Cardo', serif;
+font-weight: normal;
+}
+
+h2.calendar-title-2 {
+	line-height: 1.4em;
+	text-align: left;
+	font-size: 1.8em;
+	color: #555;
+font-family: 'Cardo', serif;
+font-weight: normal;
+    margin-bottom: -45px;
+    padding-top: 40px;
+}
+
+
+p.hero-text{
+line-height: 1.4em;
+	width: 100%;
+	text-align: center;
+	font-size: 1em;
+	color: #555;
+	padding-top: 25px;
+font-family: 'Cardo', serif;
+    padding-bottom: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+p.attractions-text{
+line-height: 1.4em;
+	text-align: left;
+	font-size: 1em;
+	color: #555;
+	padding-top: 25px;
+font-family: 'Cardo', serif;
+    padding-bottom: 50px;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+p.spa-text{
+line-height: 1.4em;
+	text-align: left;
+	font-size: 1em;
+	color: #555;
+	padding-top: 25px;
+font-family: 'Cardo', serif;
+    padding-bottom: 50px;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;}
+	
+a{
+	color: #555 !important;
+	text-decoration: none;
+}
+
+p.restaurants-text{
+line-height: 1.4em;
+	text-align: left;
+	font-size: 1em;
+	color: #555;
+	padding-top: 25px;
+font-family: 'Cardo', serif;
+    padding-bottom: 50px;
+	float: left;
+     padding-left: 35px;
+    padding-right: 35px;
+}
+
+p.contact-text{
+line-height: 1.4em;
+	text-align: center;
+	font-size: 1em;
+	color: #555;
+	padding-top: 25px;
+font-family: 'Cardo', serif;
+    padding-bottom: 50px;
+     padding-left: 35px;
+    padding-right: 35px;
+}
+
+
+
+p.beaches-text{
+line-height: 1.4em;
+	text-align: left;
+	font-size: 1em;
+	color: #555;
+	padding-top: 25px;
+font-family: 'Cardo', serif;
+    padding-bottom: 50px;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+p.directions-text{
+line-height: 1.4em;
+	width: 100%;
+	text-align: left;
+	font-size: 1em;
+	color: #555;
+	padding-top: 25px;
+font-family: 'Cardo', serif;
+    padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+p.directions-text2{
+line-height: 1.4em;
+	width: 100%;
+	text-align: left;
+	font-size: 1em;
+	color: #555;
+	padding-top: 5px;
+font-family: 'Cardo', serif;
+    padding-bottom: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+p.features-text{
+line-height: 1.4em;
+	width: 100%;
+	text-align: center;
+	font-size: 1em;
+	color: #555;
+	padding-top: 25px;
+font-family: 'Cardo', serif;
+padding-left: 20px;
+	padding-right: 20px;
+}
+
+p.area-text{
+line-height: 1.4em;
+	width: 100%;
+	text-align: left;
+	font-size: 1em;
+	color: #555;
+	padding-top: 25px;
+font-family: 'Cardo', serif;
+padding-left: 20px;
+	padding-right: 20px;
+}
+
+h1.hero-title {
+	font-size: 3.5em !important;
+	font-family: 'Petit Formal Script', cursive;
+	color: #555;
+	text-align: center;
+	font-weight: 500;
+	width: 100%;
+	padding-top: 110px;
+	padding-left: auto;
+	padding-right: auto;
+}
+
+h1.contact-title {
+	font-size: 3.5em !important;
+	font-family: 'Petit Formal Script', cursive;
+	color: #555;
+	text-align: center;
+	font-weight: 500;
+	width: 100%;
+	padding-top: 10px;
+	padding-left: auto;
+	padding-right: auto;
+}
+
+h1.hero-title-directions {
+	font-size: 3.5em !important;
+	font-family: 'Petit Formal Script', cursive;
+	color: #555;
+	text-align: center;
+	font-weight: 500;
+	width: 100%;
+	padding-top: 90px;
+	padding-left: auto;
+	padding-right: auto;
+}
+
+
+h2.gallery-title {
+	line-height: 1.4em;
+	width: 100%;
+	text-align: center;
+	font-size: 1.8em;
+	color: #555;
+	padding-top: 25px;
+font-family: 'Cardo', serif;
+font-weight: normal;
+}
+
+.RESPONSIVE-wrapper table{
+	width: 80%;
+	margin: 30px auto;}
+	
+.attractions-wrapper{
+	width: 850px;
+	margin: 30px auto !important;}
+
+.restaurants-wrapper{
+	width: 450px;
+	margin: 30px auto !important;}
+	
+.beaches-wrapper{
+	width: 515px;
+	margin: 10px auto !important}
+
+.spa-wrapper{
+	width: 400px;
+	margin: 30px auto !important;}
+
+
+.RESPONSIVE-wrapper table tr.white {
+	background-color:#fff !important;
+}
+.RESPONSIVE-wrapper table tr td.white {
+	background-color:#fff !important;
+}
+.RESPONSIVE-wrapper table tr:nth-of-type(odd) { 
+		background: #ced3cf; 
+}
+
+
+.RESPONSIVE-wrapper table tr td{
+	font-color:#555;
+	font-family: 'Crushed', cursive;
+	font-size: 0.8em;
+}
+
+
+#footer3 {
+	color: #555;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background: #fff;
+}
+
+
+.thankyou-survey-footer {
+    height: 100px;
+    bottom: 0px;
+    width: 100%;
+}
+
+
+ h2#contact-text{
+    	text-align: center;
+		color: #555;
+		padding-bottom: 5px;
+		font-family: 'Cardo', serif;
+		font-size:14px;
+	}
+h3.footer{
+	text-align: center;
+		color: #555;
+		font-family: 'Cardo', serif;
+		font-size:12px;
+}
+
+#footer3 center p {
+	font-family: 'Cardo', serif;
+	padding-bottom: 10px;
+	color: #555;
+	font-size:12px !important;
+}
+#footer3 center p a {
+	text-decoration: none;
+	color: #555;
+	font-size:12px;
+
+}
+
+#form{
+		float: left;
+		width: 55%;
+}
+
+
+form {
+    /* Just to center the form on the page */
+    margin: 50px auto;
+    width: 300px;
+    /* To see the outline of the form */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+    /* To make sure that all labels have the same size and are properly aligned */
+    display: inline-block;
+    width: 90px;
+    text-align: left;
+}
+
+input, textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+
+    /* To give the same size to all text field */
+    width: 250px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* To harmonize the look & feel of text field border */
+    border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+    /* To give a little highlight on active elements */
+    border-color: #000;
+}
+
+textarea {
+    /* To properly align multiline text fields with their labels */
+    vertical-align: top;
+
+    /* To give enough room to type some text */
+    height: 5em;
+
+    /* To allow users to resize any textarea vertically
+       It does not work on all browsers */
+    resize: vertical;
+}
+
+.button {
+    /* To position the buttons to the same position of the text fields */
+    padding-left: 0px; /* same size as the label elements */
+}
+button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: .5em;
+}
+
+calendar{
+	float: right;
+	width: 45%;
+}
+.calendar-wrapper {
+	 margin: 75px auto;
+ 
+}
+
+
+
+
+
+
+
+
+body#contact {
+	background:#e5edef !important;
+}

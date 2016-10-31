@@ -1,0 +1,34 @@
+@media screen and (max-width:769px) {
+	h2.parallax-title {
+	font-size:4em;
+}
+h3.parallax-sub-title {
+	font-size:2em;
+}
+.vertical-middle-align {
+	padding-top:1% !important;
+}
+}
+@media screen and (max-width:768px) {
+	h2.parallax-title {
+	font-size:6em;
+}
+h3.parallax-sub-title {
+	font-size:2em;
+}
+.vertical-middle-align {
+	_padding-top:13% !important;
+}
+}
+@media screen and (max-width:468px) {
+	h2.parallax-title {
+	font-size:4em;
+}
+h3.parallax-sub-title {
+	font-size:2em;
+}
+.vertical-middle-align {
+	padding-top:1% !important;
+}
+}
+

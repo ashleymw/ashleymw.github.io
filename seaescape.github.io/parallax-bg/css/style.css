@@ -1,0 +1,153 @@
+/* CSS Document */
+
+@font-face {
+  font-family: 'Crushed';
+  src: local('Crushed'), local('Crushed')
+  ,url(fonts/Crushed.ttf) format('ttf');
+}
+@font-face {
+  font-family: 'Droid-Serif';
+  src: local('Droid-Serif'), local('Droid-Serif')
+  ,url(fonts/Droid-Serif-Bold.ttf) format('ttf')
+  ,url(fonts/Droid-Serif-BoldItalic.ttf) format('ttf')
+  ,url(fonts/Droid-Serif-Italic.ttf) format('ttf')
+  ,url(fonts/Droid-Serif.ttf) format('ttf')
+}
+
+section {
+  padding: 25px 0 35px;
+  background: #aaa;
+}
+.parallax-container-locations-wrapper {
+	border-bottom: 50px solid #aaa;
+	background:rgba(0,0,0,0.5);
+	margin-bottom:-80px;
+	
+}
+.parallax-container {
+  height: 500px;
+  width: 100%;
+  font-size:100%;
+  display:table;
+  _background: rgba(0, 0, 0, 0.5) !important;
+}
+h2.parallax-title {
+	font-family: 'Crushed', cursive;
+	color:#aaa;
+	text-transform:uppercase;
+	text-align:center;
+	font-size:9.25em;
+	margin:0px;
+	line-height:1em;
+	padding:0;
+	font-style:normal;
+	font-weight:bold;
+}
+h3.parallax-sub-title {
+	font-family: 'Droid-serif', serif;
+	color:#aaa;
+	text-align:center;
+	font-size:6em;
+	margin:0px;
+	line-height:1.125em;
+	margin-bottom: 0.5%;
+
+}
+.vertical-middle-align {
+	display:table-cell;
+	vertical-align:middle;
+	padding-bottom:3%;
+	padding-top:2%;
+} 
+
+@media screen and (min-width:1650px) {
+	.vertical-middle-align {
+	vertical-align:middle;
+	_padding-top:4%;
+}
+}
+
+@media screen and (max-width:1199px) {
+	h2.parallax-title {
+	font-size:8em;
+}
+h3.parallax-sub-title {
+	font-size:5em;
+}
+.vertical-middle-align {
+	_padding-top:5.5%;
+}
+}
+@media screen and (max-width:992px) {
+	h2.parallax-title {
+	font-size:6em;
+}
+h3.parallax-sub-title {
+	font-size:4em;
+}
+.vertical-middle-align {
+	_padding-top:10%;
+}
+}
+@media screen and (max-width:768px) {
+	h2.parallax-title {
+	font-size:5em;
+	line-height:1.2em;
+}
+h3.parallax-sub-title {
+	font-size:3em;
+	line-height:1.2em;
+	margin-bottom:10px;
+}
+.vertical-middle-align {
+	_padding-top:0.05%;
+}
+}
+@media screen and (max-width:468px) {
+	h2.parallax-title {
+	font-size:4em;
+}
+h3.parallax-sub-title {
+	font-size:2em;
+}
+.vertical-middle-align {
+	_padding-top:5%;
+}
+}
+
+
+.white-box {
+	max-width:600px;
+	min-width:300px;
+	width:100%;
+	min-height:200px;
+	margin:auto;
+	text-align:center;
+	padding:20px;
+	vertical-align:middle;
+	align-content:center;
+	background:rgba(255,255,255,0.8);
+}
+.white-box .redButton {
+    margin: 20px auto 25px auto;
+    display: block;
+    padding: 13px 70px;
+    height: auto;
+    width: auto;
+    text-transform: uppercase;
+}
+.white-box h1 {
+    color: #000;
+    text-align: center;
+	font-size: 70px;
+	line-height: 0.75em;
+}
+.white-box h2 {
+    color: #000;
+	font-size:25px;
+    text-align: center;
+	font-family: 'Droid-Serif', serif;
+}
+.testimonials .full-width-light-bg {
+	padding-top:30px !important;
+}

@@ -1,0 +1,15 @@
+/* CSS Document */
+
+@font-face {
+  font-family: 'Crushed';
+  src: local('Crushed'), local('Crushed')
+  ,url(fonts/Crushed.ttf) format('ttf');
+}
+@font-face {
+  font-family: 'Droid-Serif';
+  src: local('Droid-Serif'), local('Droid-Serif')
+  ,url(fonts/Droid-Serif-Bold.ttf) format('ttf')
+  ,url(fonts/Droid-Serif-BoldItalic.ttf) format('ttf')
+  ,url(fonts/Droid-Serif-Italic.ttf) format('ttf')
+  ,url(fonts/Droid-Serif.ttf) format('ttf')
+}
