@@ -39,7 +39,7 @@ body {
 	height: 350px;
 	margin: auto;
 	background-color: #ced3cf;
-	background-image: url(../images/SeaEscapeMap.jpg);
+	background-image: url(../images/SeaEscapeMap.JPG);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -212,7 +212,7 @@ font-weight: normal;
 p.hero-text{
 line-height: 1.4em;
 	width: 100%;
-	text-align: center;
+	text-align: left;
 	font-size: 1em;
 	color: #555;
 	padding-top: 25px;
@@ -232,8 +232,7 @@ font-family: 'Cardo', serif;
     padding-bottom: 50px;
 	float: left;
 	padding-left: 20px;
-	padding-right: 20px;
-}
+	padding-right: 20px;}
 
 p.spa-text{
 line-height: 1.4em;
@@ -322,7 +321,7 @@ font-family: 'Cardo', serif;
 p.features-text{
 line-height: 1.4em;
 	width: 100%;
-	text-align: center;
+	text-align: left;
 	font-size: 1em;
 	color: #555;
 	padding-top: 25px;
@@ -482,6 +481,7 @@ form {
     /* Just to center the form on the page */
     margin: 50px auto;
     width: 300px;
+	
     /* To see the outline of the form */
     padding: 1em;
     border: 1px solid #CCC;
@@ -497,12 +497,14 @@ label {
     display: inline-block;
     width: 90px;
     text-align: left;
+	
 }
 
 input, textarea {
     /* To make sure that all text fields have the same font settings
        By default, textareas have a monospace font */
-    font: 1em sans-serif;
+   font-family: 'Cardo', serif;
+   font-size: 1em;
 
     /* To give the same size to all text field */
     width: 250px;
@@ -548,12 +550,6 @@ calendar{
 	 margin: 75px auto;
  
 }
-
-
-
-
-
-
 
 
 body#contact {
